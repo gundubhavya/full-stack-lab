@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Frames</title>
+</head>
+<body>
+    <h2>Frame Layout Example</h2>
+    <frameset rows="50%, 25%, 25%">
+        <frame src="image.jpg" title="Image Frame">
+        <frame src="paragraph.html" title="Paragraph Frame">
+        <frame src="hyperlink.html" title="Hyperlink Frame">
+    </frameset>
+    <noframes>
+        <p>Your browser does not support frames.</p>
+    </noframes>
+</body>
+</html>
