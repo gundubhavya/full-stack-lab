@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Types</title>
+    
+    <!-- Internal CSS -->
+    <style>
+        /* Selector: h1 | Property: color | Value: green */
+        h1 {
+            color: green;
+        }
+
+        /* Class selector */
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        /* ID selector */
+        #main-content {
+            border: 2px solid blue;
+            padding: 10px;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Inline CSS -->
+    <h1 style="color: red;">Welcome to CSS Example</h1>
+
+    <div id="main-content">
+        <p>This content is inside a div styled with an ID selector.</p>
+        <p class="highlight">This paragraph uses a class selector.</p>
+    </div>
+
+</body>
+</html>
